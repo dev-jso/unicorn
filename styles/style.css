@@ -1,0 +1,97 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* background-image: url('../images/Free iPhone X Case Mockup background.jpg');
+    background-size: cover; */
+    background-color: rgb(242, 242, 242);
+    color: #555;
+    font-family: Raleway, 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+*:focus { outline: none; }
+
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    z-index: 2;
+    position: absolute;
+}
+
+.header img {
+    height: 50px;
+}
+
+.bg {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+#example1 {
+    position: absolute;
+    top:35%;
+    left: 80px;
+    width:500px;
+    z-index: 2;
+    font-weight: 300;
+
+    /* font-family: 'Indie Flower','Pacifico','Gaegu', cursive; */
+    color: #2b5876;
+}
+
+.btn {
+    position: absolute;
+    bottom:35%;
+    left: 80px;
+    width:auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    z-index: 2;
+    color: #fff;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%)}
+.btn-grad:hover { background-position: right center; }
+
+/* .btn-grad {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%)}
+.btn-grad:hover { background-position: right center; } */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
