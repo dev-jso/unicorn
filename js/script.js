@@ -3,18 +3,18 @@ new TypeIt('#example1', {
     speed: 50,
     autoStart: false
     })
-    .type('Wll')
+    .type('باا')
     .pause(500)
     .delete(2)
-    .type('ell, ')
+    .type('یا, ')
     .pause(1000)
-    .type('I guess I\'m typing..')
+    .type('بیا بنویسیم رو درخت ...')
     .break()
     .pause(750)
-    .type(' but I don\'t really know what to say')
+    .type('روی آب رو پر پرنده رو ابرا')
     .options({speed: 700})
     .type('...')
     .pause(750)
     .options({speed: 50})
     .delete()
-    .type('IS THAT SO <strong>WRONG??</strong>');
+    .type('بیا بنویسیم که خدا <strong>ته قلب</strong>');
